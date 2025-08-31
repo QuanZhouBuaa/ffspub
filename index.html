@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的出版社 - 科学前沿</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="container">
+            <a href="#" class="logo">我的出版社</a>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">首页</a></li>
+                    <li><a href="#">浏览文章</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">作者中心</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <input type="search" placeholder="搜索文章...">
+                <button class="login-btn">登录</button>
+            </div>
+            <button id="mobile-menu-toggle">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>探索科学的边界</h1>
+                <p>我们致力于发表最具影响力的前沿科学研究</p>
+                <a href="#" class="btn btn-primary">提交您的稿件</a>
+            </div>
+        </section>
+
+        <div class="container main-content-area">
+            <div class="articles-feed">
+                <h2>最新发表</h2>
+                
+                <article class="article-card">
+                    <img src="https://via.placeholder.com/300x200.png?text=Article+Image" alt="文章图片">
+                    <div class="article-content">
+                        <div class="tags">
+                            <span class="tag featured">精选</span>
+                            <span class="tag open-access">开放获取</span>
+                        </div>
+                        <h3><a href="#">量子计算中的新型纠错码研究</a></h3>
+                        <p class="authors">作者：张伟, 李娜, 王强</p>
+                        <p class="metadata">物理评论快报 | 2023年10月26日 | DOI: 10.1234/xyz.5678</p>
+                        <p class="abstract">本文提出了一种创新的量子纠错码，显著提高了量子比特的保真度，为构建大规模容错量子计算机铺平了道路...</p>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <img src="https://via.placeholder.com/300x200.png?text=Article+Image" alt="文章图片">
+                    <div class="article-content">
+                         <div class="tags">
+                            <span class="tag">新发布</span>
+                        </div>
+                        <h3><a href="#">利用CRISPR-Cas9技术治疗遗传性视网膜疾病的临床前研究</a></h3>
+                        <p class="authors">作者：赵敏, 陈晨</p>
+                        <p class="metadata">生命科学 | 2023年10月25日 | DOI: 10.5678/abc.1234</p>
+                        <p class="abstract">我们的研究在动物模型中成功验证了通过基因编辑技术修复致病基因的可行性与安全性，为临床试验提供了有力支持...</p>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <img src="https://via.placeholder.com/300x200.png?text=Article+Image" alt="文章图片">
+                    <div class="article-content">
+                        <div class="tags">
+                             <span class="tag open-access">开放获取</span>
+                        </div>
+                        <h3><a href="#">可持续能源存储：高性能钠离子电池的电极材料设计</a></h3>
+                        <p class="authors">作者：刘洋, 周平</p>
+                        <p class="metadata">应用材料 | 2023年10月24日 | DOI: 10.9101/def.5678</p>
+                        <p class="abstract">本工作开发了一种新型的层状氧化物作为钠离子电池正极材料，展现出卓越的循环稳定性和倍率性能...</p>
+                    </div>
+                </article>
+
+            </div>
+
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3>阅读最多</h3>
+                    <ol>
+                        <li><a href="#">黑洞信息悖论的新视角</a></li>
+                        <li><a href="#">机器学习在药物发现中的应用</a></li>
+                        <li><a href="#">全球气候变化对生物多样性的影响评估</a></li>
+                        <li><a href="#">下一代无线通信技术：6G愿景</a></li>
+                    </ol>
+                </div>
+                <div class="widget">
+                    <h3>关于本刊</h3>
+                    <p>《科学前沿》是一本经同行评审的开放获取期刊，涵盖了自然科学和工程技术的所有领域。</p>
+                    <a href="#" class="btn">了解更多</a>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>关于我们</h4>
+                    <ul>
+                        <li><a href="#">出版社历史</a></li>
+                        <li><a href="#">我们的使命</a></li>
+                        <li><a href="#">职业机会</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>资源中心</h4>
+                    <ul>
+                        <li><a href="#">作者指南</a></li>
+                        <li><a href="#">审稿人中心</a></li>
+                        <li><a href="#">图书馆员</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>政策</h4>
+                    <ul>
+                        <li><a href="#">开放获取政策</a></li>
+                        <li><a href="#">出版道德</a></li>
+                        <li><a href="#">隐私政策</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>关注我们</h4>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 我的出版社. 版权所有.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
